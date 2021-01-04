@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: dimgray;
+}
+h1{
+    font-family: 'Pirata One', cursive;
+    font-size: 50px;
+    margin-bottom:40px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.name-style{
+    color: orange;
+}
+.header-part{
+    background-image: url('image/top-banner.png');
+    height: 600px;
+    background-repeat: no-repeat;
+}
+.head-text{
+    width: 42%;
+    float:left;
+    padding: 5%;
+}
+.header-btn{
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, green, lightgreen);
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+}
+.personal-img{
+    width: 650px;
+}
+.head-img{
+    width:45%;
+    float:left;
+}
+.dream-text{
+    width: 45%;
+    float:left;
+    padding: 5%;
+}
+.dream-img{
+    width:45%;
+    float:left;
+}
+.dream-img img{
+    width: 100%;
+}
+.dream-part{
+    background-image: url('image/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position:right;
+    height: 800px;
+    
+}
+.dream-btn{
+    padding: 15px 25px;
+    background-image: linear-gradient(60deg, orange, red);
+    font-weight: bold;
+    color: #fff
+}
+.Experiences{
+    font-size: 50px;
+}
+.exh2{
+    color: orange;
+    font-size: 20px;
+}
+.exper-part{
+    width: 40%;
+    float:left;
+    padding: 5%;
+    height: 250px;
+    box-shadow:  5px 5px 20px gray;
+
+}
+.exper-ndpart{
+    width: 40%;
+    float:left;
+    padding: 5%;
+    height: 250px;
+    box-shadow:  5px 5px 20px gray;
+
+}
+.Experiences-area{
+        width:100%;
+}
