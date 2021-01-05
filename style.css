@@ -1,13 +1,6 @@
 *{
     margin: 0;
 }
-p{
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    margin-bottom: 20px;
-    color: dimgray;
-}
 h1{
     font-family: 'Pirata One', cursive;
     font-size: 50px;
@@ -21,6 +14,14 @@ a{
     text-decoration: none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.header-part p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: dimgray;
+}
 .name-style{
     color: orange;
 }
@@ -29,14 +30,14 @@ a{
     height: 600px;
     background-repeat: no-repeat;
 }
-.head-text{
+.header-text{
     width: 42%;
     float:left;
     padding: 5%;
 }
 .header-btn{
     padding: 10px 20px;
-    background-image: linear-gradient(45deg, green, lightgreen);
+    background-image: linear-gradient(45deg, blue, #00ffff);
     border-radius: 4px;
     font-weight: bold;
     color: #fff;
@@ -44,9 +45,17 @@ a{
 .personal-img{
     width: 650px;
 }
-.head-img{
+.header-img{
     width:45%;
     float:left;
+}
+.dream-part p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: dimgray;
 }
 .dream-text{
     width: 45%;
@@ -73,29 +82,61 @@ a{
     font-weight: bold;
     color: #fff
 }
+.Experiences-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+    background-size: 80px;
+}
+.Experiences-area p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: dimgray;
+}
+
 .Experiences{
     font-size: 50px;
 }
-.exh2{
+.Experiences-heading{
     color: orange;
     font-size: 20px;
 }
-.exper-part{
+.Experiences-first{
     width: 40%;
     float:left;
-    padding: 5%;
-    height: 250px;
-    box-shadow:  5px 5px 20px gray;
-
+    padding: 3%;
+    margin-left: 3%;
+    height: 280px;
+    box-shadow: 0 0 30px gray;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orange, yellow);
+    border-image-slice: 1;
+    background-color: #fff;
 }
-.exper-ndpart{
+.Experiences-scound{
     width: 40%;
     float:left;
-    padding: 5%;
-    height: 250px;
-    box-shadow:  5px 5px 20px gray;
-
+    padding: 3%;
+    margin-left: 3%;
+    height: 280px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, #00ffff);
+    border-image-slice:1; 
 }
-.Experiences-area{
-        width:100%;
+
+footer p{
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: dimgray;
 }
